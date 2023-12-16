@@ -1,38 +1,3 @@
-// const pantalla = document.querySelector('.pantalla');
-// const botones = document.querySelectorAll('.btn');
-
-
-// botones.forEach(boton => {
-// 	boton.addEventListener('click', () => {
-// 		const botonApretsdo
-// 	})
-// })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const pantalla = document.querySelector('.pantalla');
 const botones = document.querySelectorAll('.btn');
 
