@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	background-image: url("madera.jpg");
+	display: grid;
+	place-items: center;
+}
+
+.calculadora{
+	background-color:  #282020;
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 350px;
+	max-width: 100%;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	gap: .5rem;
+}
+
+.pantalla{
+	grid-column: 1/5;
+	background-color: #4D9A15;
+	padding: 1.5rem;
+	font-size: 2em;
+	text-align: right;
+	border-radius: .5rem;
+	,margin-bottom: 1rem;
+	font-family: monospace;
+	font-weight: 60;
+	overflow-x: auto;
+	margin-bottom: .5em;
+}
+
+.btn{
+	background-color: gray;
+	color: #fff;
+	border-radius: 1em;
+	padding: 1.5rem;
+	border-color: #15173c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #666666;
+}
+
+#cero{
+	grid-column: span 2;
+}
+
+#igual{
+	grid-row: span 2;
+	background-color: #ff1133;
+}
+
+p{
+	grid-column: 1/5;
+	margin: 0 auto;
+	font-family: 'Whisper', cursive;
+	font-size: 28px;
+}
+
+span{
+	font-size: 15px;
+}
+
